@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <style>
   :root{
     --ink: #16281F;
@@ -67,6 +68,13 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  .brand{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
   .wordmark{
     font-family: 'IBM Plex Serif', serif;
     font-weight: 600;
@@ -328,7 +336,9 @@
 
 <header>
   <div class="header-inner">
-    <div class="wordmark">AMC<small>Ingeniería de Alimentos</small></div>
+    <div class="brand">
+      <div class="wordmark">AMC<small>Ingeniería de Alimentos</small></div>
+    </div>
     <nav>
       <a href="#servicios">Servicios</a>
       <a href="#compromiso">Nosotros</a>
